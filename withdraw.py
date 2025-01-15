@@ -1,3 +1,8 @@
+
+   
+  
+       
+
 """This function handles the withdrawal process for the user."""
 
 # TODO: Pass in the checking_account and savings_account objects.
@@ -81,3 +86,100 @@ user_interaction()
   
        
 
+            
+          
+       
+
+
+# Call the function
+
+
+
+
+# Call the function
+
+   
+                # TODO: Print an error message if the user enters an invalid amount.
+             
+       
+ amount = input("Enter the amount you want to deposit: ")
+            amount = float(amount)  # Try to convert the input to a float
+            
+            if amount <= 0:
+                print("Error: Please enter a positive amount.")
+            else:
+                print(f"You have successfully deposited ${amount:.2f}.")
+                
+        
+            print("Error: Invalid input. Please enter a numeric value.")
+            
+            
+            
+          
+             
+                
+
+# Example usage
+   
+       
+            
+
+# Example usage
+
+             
+
+        
+
+                # TODO: Call the handle_withdrawal function recursively for an invalid amount.
+                
+    
+        
+        
+
+            
+
+     # Assuming checking_account has a withdraw method
+         
+            
+        
+
+                # TODO: Ensure the function returns after the recursive call.
+                
+
+    
+       
+   
+        
+        
+      
+            
+            
+
+        
+            # Assuming checking_account has a withdraw method
+
+        
+            # Assuming savings_account has a withdraw method
+
+        
+        
+
+   
+        
+        
+   
+            # TODO: Add an if/else conditional statement to check the account choice,
+            
+           
+                # TODO: Call the withdraw method on the appropriate account.
+                # TODO: Add a print statement to display the updated balance after the deposit
+                # TODO: Format the balance to two decimal places and thousands.
+            
+                # TODO: Call the deposit methods on the appropriate account.
+                # TODO: Add a print statement to display the updated balance after the deposit
+                # TODO: Format the balance to two decimal places and thousands.
+        
+            # TODO: Raise a ValueError with a message stating the user entered an invalid choice.
+    # If the user enters an invalid choice,
+    # Print the ValueError message and call the handle_deposit function recursively.
+   
