@@ -1,8 +1,3 @@
-
-   
-  
-       
-
 """This function handles the withdrawal process for the user."""
 
 # TODO: Pass in the checking_account and savings_account objects.
@@ -183,3 +178,4 @@ user_interaction()
     # If the user enters an invalid choice,
     # Print the ValueError message and call the handle_deposit function recursively.
    
+
